@@ -1,21 +1,15 @@
-import Navigation from './sections/Navigation.jsx';
-import Header from './sections/Header.jsx';
-import Services from './sections/Services.jsx';
-import Portfolio from './sections/Portfolio.jsx';
-import About from './sections/About.jsx';
-import Team from './sections/Team.jsx';
-import Contact from './sections/Contact.jsx';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import template from './components/template'
+function App() {
 
-export default function App() {
   return (
-    <>
-      <Navigation />
-      <Header />
-      <Services />
-      <Portfolio />
-      <About />
-      <Team />
-      <Contact />
+    <>  
+    <template/>
     </>
-  );
+  )
 }
+
+export default App
