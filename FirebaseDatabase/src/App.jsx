@@ -1,14 +1,8 @@
-import Form from './components/Form'
-import StudentData from './components/studentData'
-import './App.css'
+import React from "react";
+import FirebaseCrud from "./components/FirebaseCrud";
 
 function App() {
-  return (
-    <>
-     <Form/>
-    <StudentData/>
-        </>
-  )
+  return <FirebaseCrud />;
 }
 
-export default App
+export default App;
