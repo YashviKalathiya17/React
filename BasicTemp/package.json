@@ -1,33 +1,29 @@
 {
-  "name": "productmanagement",
+  "name": "basictemp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "json-server --watch db.json --port 5000",
-    "client": "vite",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.8.2",
-    "axios": "^1.11.0",
-    "bootstrap": "^5.3.8",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.2",
+    "@mui/styled-engine-sc": "^7.3.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.8.2",
-    "redux": "^5.0.1",
-    "redux-thunk": "^3.1.0"
+    "react-is": "^18.3.1",
+    "styled-components": "^6.1.19"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
-    "concurrently": "^9.2.1",
     "eslint": "^9.33.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",

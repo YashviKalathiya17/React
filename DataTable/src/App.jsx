@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>📊 Data Table</h1>
+      <h1> Data Table</h1>
 
       <div className="input-group">
         <input
@@ -66,7 +66,7 @@ const App = () => {
             <th>#</th>
             <th>Name</th>
             <th>Email</th>
-            <th>✏️ / ❌</th>
+            <th>Edit / Delete</th>
           </tr>
         </thead>
         <tbody>

@@ -27,6 +27,13 @@
       "price": 15000,
       "category": "mobile",
       "image": "https://tse4.mm.bing.net/th/id/OIP.L_IBmQ5JmWqU-k1Ezm9DjgHaFj?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "04c6",
+      "title": "picture",
+      "price": 45000,
+      "category": "image",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.U_VJuupQohwnzXcKMztqWgHaEo?pid=Api&P=0&h=180"
     }
   ],
   "users": [
