@@ -1,20 +1,6 @@
 {
   "products": [
     {
-      "id": "2",
-      "title": "Shoes",
-      "price": 2006,
-      "category": "Fashion",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "id": "ad06",
-      "title": "iphone",
-      "price": 66000,
-      "category": "16",
-      "image": "uu"
-    },
-    {
       "id": "44f7",
       "title": "Laptop",
       "price": 72000,
